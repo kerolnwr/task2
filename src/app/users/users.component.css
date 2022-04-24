@@ -1,0 +1,29 @@
+.spacer {
+    flex: 1;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, white, rgb(91, 211, 241), black);
+    color: white;
+    font-weight: 600;
+}
+
+.toolbar img {
+    margin: 0 16px;
+}
+
+
+table, .upper-table {
+    width: 100%;
+}
+
+th.mat-sort-header-sorted {
+    color: black;
+}
